@@ -38,6 +38,7 @@ fields as (
 
     select
         stats.date_day,
+        accounts.clerk_org_id,
         accounts.account_name,
         accounts.account_id,
         campaigns.campaign_name,
